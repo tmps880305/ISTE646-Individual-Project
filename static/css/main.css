@@ -36,33 +36,35 @@ body {
 .main-title a {
     color: #000000;
     font-family: 'Abhaya Libre', serif;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-decoration: none;
     font-size: 36px;
 }
-
-.main-title::after {
-    content: '';
-    display: inline-flex;
-    height: 3px;
-    width: 200px;
-    background-color: #000000;
-    position: fixed;
-    margin-top: -2.5vh;
-    margin-left: 4.5vw;
-  }
 
 .main-box1 img {
     width: 25vw;
     margin-top: 5.5vh;
 }
 
+.main-box1 span {
+    /* content: ''; */
+    display: flex;
+    height: 3px;
+    width: 200px;
+    background-color: #000000;
+    position: relative;
+    margin-top: -74vh;
+    margin-left: 18vw;
+    z-index: 1;
+}
+
 .main-box2 {
     margin-top: 0.5vh;
-    margin-left: 2vw;
+    margin-left: -1vw;
     width: fit-content;
     height: fit-content;
 }
+
 
 .main-text {
     width: fit-content;
@@ -80,33 +82,25 @@ body {
     font-size: 16px;
 }
 
-.main-text p::before {
-    content: '';
-    display: inline-flex;
-    height: 75vh;
-    width: 3px;
-    background-color: #000000;
-    position: fixed;
-    margin-top: 11vh;
-}
-
-.main-text p::after {
-    content: '';
-    display: inline-flex;
-    height: 3px;
-    width: 60vw;
-    background-color: #000000;
-    position: fixed;
-    margin-top: 63vh;
-    margin-left: 8vw;
-}
-
 .main-box2 img {
     width: 18vw;
     margin-top: 8.5vh;
     margin-left: 6vw;
     padding: 30px;
     background-color: #FFFFFF;
+    display: flex;
+}
+
+.main-box2 span {
+    display: flex;
+    float: left;
+    height: 68vh;
+    width: 3px;
+    background-color: #000000;
+    position: relative;
+    margin-top: -10vh;
+    margin-left: 2vw;
+    z-index: 1;
 }
 
 .main-box3 {
@@ -114,5 +108,40 @@ body {
 }
 
 .main-box3 img {
+    /* float: left; */
     width: 24vw;
+    position: relative;
+}
+
+
+.main-box3 span {
+    display: flex;
+    height: 3px;
+    width: 37vw;
+    background-color: #000000;
+    position: relative;
+    margin-top: 8vh;
+    margin-left: -5vw;
+    z-index: 1;
+}
+
+.ban-container {
+    width: 100%;
+    height: 25vh;
+    position: relative;
+}
+
+.ban-container img {
+    width: 100%;
+}
+
+.ban-container a {
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 23vw;
+    color: #FFFFFF;
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    font-size: 48px;
+    letter-spacing: 3px;
 }
