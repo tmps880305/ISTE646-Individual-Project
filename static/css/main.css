@@ -6,53 +6,113 @@ body {
 .container {
     margin: 0;
     padding: 0;
+    height: 92vh;
     display: flex;
     justify-content: center;
-    background-color: #6A6A6A;
+    background-color: #F5F2ED;
 }
 
-.navbar {
+.main-container {
+    margin-top: 5.5vh;
     width: 83%;
-    height: 80px;
-    margin: 0;
-    padding: 0;
+    /* background-color: aquamarine; */
+    display: inline-flex;
 }
 
-.navbar img {
-    height: 80%;
-    width: auto;
-    float: left;
-    padding-top: 8px;
+.main-box1 {
+    margin-top: 1.5vh;
+    width: fit-content;
+    height: fit-content;
 }
 
-.navbar nav {
-    float: right;
+.main-title {
+    /* margin-top: 1.5vh; */
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 30px 20px 30px;
+    border: 1.5px solid #000000;
 }
 
-.navbar ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.navbar li {    
-    display: inline-block;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 3%;
-    padding-bottom: 4%;
-    height: 100%;
-
-}
-
-.navbar li:hover {
-    background-color: #585858;
-}
-
-.navbar a {
-    color: #FFFFFF;
+.main-title a {
+    color: #000000;
     font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 36px;
 }
 
+.main-title::after {
+    content: '';
+    display: inline-flex;
+    height: 3px;
+    width: 200px;
+    background-color: #000000;
+    position: fixed;
+    margin-top: -2.5vh;
+    margin-left: 4.5vw;
+  }
+
+.main-box1 img {
+    width: 25vw;
+    margin-top: 5.5vh;
+}
+
+.main-box2 {
+    margin-top: 0.5vh;
+    margin-left: 2vw;
+    width: fit-content;
+    height: fit-content;
+}
+
+.main-text {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 40px 20px 40px;
+    background-color: #FFFFFF;
+    text-align: justify;
+}
+
+.main-text p {
+    width: 350px;
+    color: #000000;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main-text p::before {
+    content: '';
+    display: inline-flex;
+    height: 75vh;
+    width: 3px;
+    background-color: #000000;
+    position: fixed;
+    margin-top: 11vh;
+}
+
+.main-text p::after {
+    content: '';
+    display: inline-flex;
+    height: 3px;
+    width: 60vw;
+    background-color: #000000;
+    position: fixed;
+    margin-top: 63vh;
+    margin-left: 8vw;
+}
+
+.main-box2 img {
+    width: 18vw;
+    margin-top: 8.5vh;
+    margin-left: 6vw;
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+
+.main-box3 {
+    margin-left: 4vw;
+}
+
+.main-box3 img {
+    width: 24vw;
+}
