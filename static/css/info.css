@@ -30,10 +30,10 @@
     margin-bottom: 5vh;
     border-radius: 4px;
 }
+/*  */
 
 
-
-/* Vertical line */
+/* Text box and vertical line */
 @media only screen and (min-width: 1415px) {
     .info-box1-align {
         margin-top: -20px;
@@ -51,15 +51,16 @@
 }
 @media only screen and (max-width: 1415px) {
     .info-box1-align {
-        margin-top: 170px;
-    }
+            margin-top: 170px;
+        }
 }
-
+/*  */
 
 /* Column 2 */
 .info-box2 {
     margin-top: 1px;
     overflow: hidden;
+    display: flex;
 }
 
 /* Horizontal line */
@@ -75,84 +76,49 @@
     }
 }
 
-/* @media only screen and (max-width: 1414px) {
-    .info-box2 span {
-        height: 3px;
-        width: 10vw;
-        background-color: #000000;
-        position: absolute;
-        margin-top: 29vh;
-        margin-left: -6vw;
-        z-index: 1;
-    }
-} */
-
+/* Image container in right column */
 .info-box2-img-container {
     width: 45vw;
     height: 90vh;
     margin-left: 1vw;
 }
 
+.info-box2-img-container img {
+    width: 480px;
+    aspect-ratio: 3/2;
+    border-radius: 8px;
+}
 
-.info-box2-img-1 {
+.info-box2-img-container div {
     width: fit-content;
     height: fit-content;
     padding: 20px 15px 15px 15px;
     background-color: #FFFFFF;
     border-radius: 8px;
     position: absolute;
-    margin: 80px 0 0 40px;
-    rotate: -8deg;
-}
-
-.info-box2-img-1 img{
-    width: 480px;
-    aspect-ratio: 3/2;
-    border-radius: 8px;
-}
-
-.info-box2-img-2 {
-    width: fit-content;
-    height: fit-content;
-    padding: 20px 15px 15px 15px;
-    background-color: #FFFFFF;
-    border-radius: 8px;
-    position: absolute;
-    margin: 50px 0 0 480px;
-    rotate: 10deg;
-}
-
-.info-box2-img-2 img{
-    width: 480px;
-    aspect-ratio: 3/2;
-    border-radius: 8px;
 }
 
 
-.info-box2-img-3 {
-    width: fit-content;
-    height: fit-content;
-    padding: 20px 15px 15px 15px;
-    background-color: #FFFFFF;
-    border-radius: 8px;
-    position: absolute;
-    margin: 230px 0 0 240px;
-}
-
-.info-box2-img-3 img{
-    width: 480px;
-    aspect-ratio: 3/2;
-    border-radius: 8px;
-}
-
-.info-box2-align {
-    margin-top: 70vh;
-    margin-left: 10vw;
-    position: absolute;
-}
-
-
+/* Box2 - Image/Frame size and align (w>1415, 1200<w<1415) */
 @media only screen and (min-width: 1415px) {
+    /* Image1 */
+    .info-box2-img-1 {
+        margin: 80px 0 0 40px;
+        rotate: -8deg;
+    }
+
+    /* Image2 */
+    .info-box2-img-2 {
+        margin: 50px 0 0 480px;
+        rotate: 10deg;
+    }
+
+    /* Image3 */
+    .info-box2-img-3 {
+        margin: 230px 0 0 240px;
+    }
+
+    /* Vertical line (only exist when w>1415) */
     .info-box2-align a {
         height: 13vh;
         width: 3px;
@@ -162,3 +128,36 @@
         margin-left: 20vw;
     }    
 }
+
+@media only screen and (max-width: 1415px) and (min-width: 1200px) {
+    /* Image1 */
+    .info-box2-img-1 {
+        margin: 40px 0 0 40px;
+    }
+
+    /* Image2 */
+    .info-box2-img-2 {
+        margin: 140px 0 0 120px;
+    }
+
+    /* Image3 */
+    .info-box2-img-3 {
+        margin: 240px 0 0 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .info-box2-img-container div {
+        position: relative;
+        display: inline-flex;
+        margin-top: 20px;
+    }
+}
+
+.info-box2-align {
+    margin-top: 70vh;
+    margin-left: 10vw;
+    position: absolute;
+} 
+
+
