@@ -1,0 +1,32 @@
+/* Text card with border and no background */
+.main-title {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 30px 20px 30px;
+    border: 1.5px solid #000000;
+}
+
+.main-title a {
+    color: #000000;
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+
+/* Text card with white background */
+.main-text {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 40px 20px 40px;
+    background-color: #FFFFFF;
+    text-align: justify;
+}
+
+.main-text p {
+    width: 350px;
+    color: #000000;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}

@@ -1,0 +1,33 @@
+/* Banner */
+.ban-container {
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    display: block;
+}
+
+.ban-container img {
+    width: 100%;
+}
+
+.ban-container div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin: auto;
+    position: absolute;
+}
+
+.ban-container a {
+    /* position: absolute; */
+    /* margin-top: 10vh; */
+    /* margin-left: 30%; */
+    vertical-align: middle;
+    color: #FFFFFF;
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    font-size: 36px;
+    letter-spacing: 3px;
+}

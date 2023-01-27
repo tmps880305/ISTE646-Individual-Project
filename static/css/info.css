@@ -1,0 +1,32 @@
+.info-container {
+    width: 83%;
+    display: inline-flex;
+    height: 100vh;
+}
+
+/* Column 1 */
+.info-box1 {
+    margin-top: 1px;
+}
+
+.info-box1 img {
+    width: 33vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.info-box1-align {
+    margin-top: -20px;
+}
+
+/* Vertical line */
+.info-box1 span {
+    display: flex;
+    height: 200px;
+    width: 3px;
+    background-color: #000000;
+    position: relative;
+    margin-left: 2vw;
+    z-index: 1;
+}
+
