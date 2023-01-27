@@ -9,6 +9,7 @@
     background-size: cover;
     background-blend-mode: color-burn;
     overflow: hidden;
+    position: relative;
 }
 
 .info-container {
@@ -30,46 +31,66 @@
     border-radius: 4px;
 }
 
-.info-box1-align {
-    margin-top: -20px;
-}
+
 
 /* Vertical line */
-.info-box1 span {
-    display: flex;
-    height: 190px;
-    width: 3px;
-    background-color: #000000;
-    position: relative;
-    margin-left: 2vw;
-    z-index: 1;
+@media only screen and (min-width: 1415px) {
+    .info-box1-align {
+        margin-top: -20px;
+    }
+
+    .info-box1 span {
+        display: flex;
+        height: 190px;
+        width: 3px;
+        background-color: #000000;
+        position: relative;
+        margin-left: 2vw;
+        z-index: 1;
+    }
 }
+@media only screen and (max-width: 1415px) {
+    .info-box1-align {
+        margin-top: 170px;
+    }
+}
+
 
 /* Column 2 */
 .info-box2 {
     margin-top: 1px;
+    overflow: hidden;
 }
 
 /* Horizontal line */
-.info-box2 span {
-    display: flex;
-    float: left;
-    height: 3px;
-    width: 200px;
-    background-color: #000000;
-    position: absolute;
-    margin-top: 26vh;
-    margin-left: -7vw;
-    z-index: 1;
+@media only screen and (min-width: 1415px) {
+    .info-box2 span {
+        height: 3px;
+        width: 9.5vw;
+        background-color: #000000;
+        position: absolute;
+        margin-top: 26vh;
+        margin-left: -6vw;
+        z-index: 1;
+    }
 }
+
+/* @media only screen and (max-width: 1414px) {
+    .info-box2 span {
+        height: 3px;
+        width: 10vw;
+        background-color: #000000;
+        position: absolute;
+        margin-top: 29vh;
+        margin-left: -6vw;
+        z-index: 1;
+    }
+} */
 
 .info-box2-img-container {
     width: 45vw;
     height: 90vh;
     margin-left: 1vw;
-    /* float: right; */
-    /* background-color: red; */
-    /* display: flex; */
 }
 
 
@@ -130,11 +151,14 @@
     position: absolute;
 }
 
-.info-box2-align a {
-    height: 13vh;
-    width: 3px;
-    background-color: #000000;
-    position: absolute;
-    margin-top: 17vh;
-    margin-left: 20vw;
+
+@media only screen and (min-width: 1415px) {
+    .info-box2-align a {
+        height: 13vh;
+        width: 3px;
+        background-color: #000000;
+        position: absolute;
+        margin-top: 17vh;
+        margin-left: 20vw;
+    }    
 }

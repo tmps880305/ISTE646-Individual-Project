@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
 
 .container {
@@ -34,7 +35,7 @@ body {
 .main-box1 span {
     display: flex;
     height: 3px;
-    width: 200px;
+    width: 10vw;
     background-color: #000000;
     position: relative;
     margin-top: -74vh;
@@ -90,5 +91,4 @@ body {
     margin-top: 8vh;
     margin-left: -5vw;
     z-index: 1;
-    /* overflow: hidden; */
 }
