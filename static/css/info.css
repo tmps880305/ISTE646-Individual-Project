@@ -104,6 +104,7 @@
     position: absolute;
 }
 
+/* Horizontal line */
 .info-box2 span {
     height: 3px;
     width: 9.5vw;
@@ -114,7 +115,6 @@
     z-index: 1;
 }
 
-/* Horizontal line */
 @media only screen and (max-width: 1415px) {
     .info-box2 span {
         display: none;

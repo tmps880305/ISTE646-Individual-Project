@@ -30,3 +30,9 @@
     font-size: 36px;
     letter-spacing: 3px;
 }
+
+@media only screen and (max-width: 1200px){
+    .ban-container a {
+        font-size: 20px;
+    }
+}
