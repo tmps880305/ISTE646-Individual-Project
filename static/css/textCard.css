@@ -49,9 +49,18 @@
     font-size: 16px;
 }
 
-@media only screen and (max-width: 1415px){
+@media only screen and (max-width: 1620px){
     .main-text {
         width: 25vw;
+    }
+    .main-text p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1415px){
+    .main-text {
+        width: 30vw;
     }
     .main-text p {
         width: 100%;
