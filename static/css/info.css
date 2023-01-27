@@ -1,3 +1,16 @@
+.container-back {
+    margin: 0;
+    margin-top: 2px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245,242,237,0.4);
+    background-image: url("../img/info_background.jpeg");
+    background-size: cover;
+    background-blend-mode: color-burn;
+    overflow: hidden;
+}
+
 .info-container {
     width: 83%;
     display: inline-flex;
@@ -7,12 +20,14 @@
 /* Column 1 */
 .info-box1 {
     margin-top: 1px;
+    margin-left: 1vw;
 }
 
 .info-box1 img {
     width: 33vw;
-    margin-top: 10vh;
+    margin-top: 15vh;
     margin-bottom: 5vh;
+    border-radius: 4px;
 }
 
 .info-box1-align {
@@ -22,7 +37,7 @@
 /* Vertical line */
 .info-box1 span {
     display: flex;
-    height: 200px;
+    height: 190px;
     width: 3px;
     background-color: #000000;
     position: relative;
@@ -30,3 +45,96 @@
     z-index: 1;
 }
 
+/* Column 2 */
+.info-box2 {
+    margin-top: 1px;
+}
+
+/* Horizontal line */
+.info-box2 span {
+    display: flex;
+    float: left;
+    height: 3px;
+    width: 200px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 26vh;
+    margin-left: -7vw;
+    z-index: 1;
+}
+
+.info-box2-img-container {
+    width: 45vw;
+    height: 90vh;
+    margin-left: 1vw;
+    /* float: right; */
+    /* background-color: red; */
+    /* display: flex; */
+}
+
+
+.info-box2-img-1 {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 15px 15px 15px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    position: absolute;
+    margin: 80px 0 0 40px;
+    rotate: -8deg;
+}
+
+.info-box2-img-1 img{
+    width: 480px;
+    aspect-ratio: 3/2;
+    border-radius: 8px;
+}
+
+.info-box2-img-2 {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 15px 15px 15px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    position: absolute;
+    margin: 50px 0 0 480px;
+    rotate: 10deg;
+}
+
+.info-box2-img-2 img{
+    width: 480px;
+    aspect-ratio: 3/2;
+    border-radius: 8px;
+}
+
+
+.info-box2-img-3 {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 15px 15px 15px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    position: absolute;
+    margin: 230px 0 0 240px;
+}
+
+.info-box2-img-3 img{
+    width: 480px;
+    aspect-ratio: 3/2;
+    border-radius: 8px;
+}
+
+.info-box2-align {
+    margin-top: 70vh;
+    margin-left: 10vw;
+    position: absolute;
+}
+
+.info-box2-align a {
+    height: 13vh;
+    width: 3px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 17vh;
+    margin-left: 20vw;
+}

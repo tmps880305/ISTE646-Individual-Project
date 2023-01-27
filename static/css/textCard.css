@@ -14,7 +14,7 @@
 }
 
 
-/* Text card with white background */
+/* Text card with white background for main text*/
 .main-text {
     width: fit-content;
     height: fit-content;
@@ -25,6 +25,24 @@
 
 .main-text p {
     width: 350px;
+    color: #000000;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* Text card with white background for info */
+.info-text {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 40px 20px 40px;
+    background-color: #FFFFFF;
+    text-align: justify;
+}
+
+.info-text p {
+    width: 450px;
     color: #000000;
     font-family: 'Noto Sans JP', sans-serif;
     text-decoration: none;
