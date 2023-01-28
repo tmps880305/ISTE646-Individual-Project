@@ -11,7 +11,11 @@
     height: 8vh;
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
+
+
+
 
 .navbar p {
     margin-top: 2vh;
@@ -23,10 +27,10 @@
 }
 
 .navbar img {
-    height: 80%;
-    width: auto;
+    width: 50px;
+    height: 50px;
     float: left;
-    padding-top: 0.7vh;
+    margin-top: 1.2vh;
 }
 
 .navbar nav {
@@ -76,7 +80,6 @@
     position: absolute;
     width: inherit;
     background-color: #585858;
-    /* box-shadow: rgba(0,0,0,0.2); */
     z-index: 1;
 }
 
@@ -98,4 +101,39 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+@media only screen and (max-width: 1200px){
+    .navbar {
+        width: 100vw;
+        height: auto;
+    }
+
+    .navbar img {
+        margin: 1.2vh;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #drop-ul {
+        width: 300px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 

@@ -110,6 +110,10 @@ body {
         margin-top: 10px;
         position: relative;
     }
+
+    .main-text-align {
+        width: 80vw;
+    }
 }
 
 
@@ -143,6 +147,10 @@ body {
 }
 
 @media only screen and (max-width: 1415px) {
+    .main-box2 {
+        width: 30vw;
+    }
+
     .main-box2 span {
         height: 58vh;
         max-height: 42vw;
@@ -194,12 +202,11 @@ body {
 
 @media only screen and (max-width: 1415px) {
     .main-box3 img {
-        margin-top: 5vw;
+        margin-top: 9vw;
     }
 
     .main-box3 span {
         width: 40vw;
-        /* max-width: 42vh; */
     }
 }
 @media only screen and (max-width: 1200px) {
@@ -219,4 +226,5 @@ body {
     .main-box3 span {
         display: none;
     }
+
 }
