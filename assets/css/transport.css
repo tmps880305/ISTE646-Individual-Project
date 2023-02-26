@@ -1,0 +1,294 @@
+.trans-container {
+    width: 100vw;
+    background-color: #ACB6A4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bc-wrapper {
+    width: 80%;
+}
+
+.bc-container {
+    width: 12%;
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.bc-container .arrow{
+    border: solid #646464;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: -1px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.bc-text {
+    font-family: 'Brygada 1918', serif;
+    font-size: 16px;
+    color: #646464;
+    font-weight: lighter;
+}
+
+.bc-highlight{
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+.trans-main-container {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.trans-main-img {
+    width: 100vw;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/highspeedrail_2.png");
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+
+.trans-img-cover {
+    width: 100vw;
+    height: 600px;
+    background-color: #ACB6A4;
+    opacity: 30%;
+    position: absolute;
+}
+
+.trans-tp-card {
+    width: 800px;
+    height: 250px;
+    background-color: #FFFFFF;
+    opacity: 70%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trans-tp-card h2 {
+    line-height: 0;
+}
+
+.trans-tp-card h3 {
+    line-height: 0;
+}
+
+.trans-slg-card {
+    width: 80%;
+    background-color: #FFFFFF;
+    margin-top: 200px;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.trans-slg-card h3 {
+    width: 80%;
+    text-align: center;
+}
+
+
+/* container for the list of items */
+.trans-list-container {
+    width: 100vw;
+    height: 3000px;
+    background-color: #F5FFED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trans-list-wrapper {
+    width: 70%;
+    height: 2000px;
+    /* background-color: #646464; */
+}
+
+.trans-list-ttl {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.trans-list-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trans-list-item h2 {
+    line-height: 0;
+}
+
+.trans-list-item p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.item-rate-card {
+    width: 100%;
+    height: 240px;
+    margin: 40px 0;
+    background-color: #D6FFBB;
+    opacity: 80%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+}
+
+/* to wrap titles in a line */
+.rate-ttl-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.rate-ttl-cmt {
+    flex-grow: 2;
+}
+
+.rate-ttl {
+    font-family: 'Brygada 1918', serif;
+    font-size: 24px;
+    color: #000000;
+    font-weight: lighter;
+}
+.rate-ttl-rt {
+    flex-grow: 4;
+    display: flex;
+    align-items: baseline;
+    column-gap: 72px;
+
+}
+/*  */
+
+.rate-content-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.content-cmt {
+    width: 10%;
+    flex-grow: 2;
+}
+
+.content-cmt > p {
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+}
+
+.content-ratelist {
+    width: 10%;
+    height: 100%;
+    /* background-color: red; */
+    flex-grow: 4;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+.rate-pos-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.rate-pos-2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.rate-pos-3 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.rate-pos-4 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.rate-stars {
+    height: 15px;
+    width: 15px;
+    background-color: #7BC043;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.rate-item {
+    display: grid;
+    grid-template-columns: 20% auto 25%;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.rate-bar-wrapper {
+    height: 10px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.rate-bar{
+    height: 100%;
+    border-radius: 50px;
+    display: inline-block;
+    position: absolute;
+}
+
+
+.rate-bar-fill {
+    width: 60%;
+    background-color: #7BC043;
+}
+
+.rate-bar-empty {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.rate-detail {
+    font-size: 14px;
+}
+
+/* image wrap */
+.trans-list-img {
+    width: 100%;
+    height: 600px;
+    background-color: grey;
+}
