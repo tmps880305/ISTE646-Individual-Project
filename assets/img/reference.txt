@@ -1,0 +1,16 @@
+[Image file name] - [Reference]
+
+sunset_taipei101.jpg - Image by <a href="https://pixabay.com/users/chrisarmsden-3054165/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5752232">chrisarmsden</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5752232">Pixabay</a>
+sunrise_taipei101.jpg - Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1846728">Pexels</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1846728">Pixabay</a>
+mount_road.jpg - Image by <a href="https://pixabay.com/users/juan00-2834922/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1737087">Juan00</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1737087">Pixabay</a>
+mountains.jpg - Image by <a href="https://pixabay.com/users/rico0769-6547553/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2856238">Rico Lin</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2856238">Pixabay</a>
+highspeedrail_1.jpeg - https://www.travel.taipei/en/information/thsr
+highspeedrail_2.jpg - https://taiwanstartshere.com/2020/05/27/high-speed-rail-in-taiwan/
+highspeedrail_inner - https://www.kkday.com/ja/blog/8873/29-asia-taiwan-high-speed-rail-discount-ticket-info
+highspeedrail_map - https://www.taipeitravelgeek.com/taiwan-high-speed-rail-hsr-discounts-klook
+railway_map.png - https://en.wikipedia.org/wiki/Rail_transport_in_Taiwan
+railway_train.png - https://games.yahoo.com.tw/%E5%8F%B0%E9%90%B5%E6%97%A9%E4%BA%AB%E7%A5%A8%E6%87%B6%E4%BA%BA%E5%8C%85-%E6%AC%A1%E7%9C%8B-45%E7%8F%AD%E8%87%AA%E5%BC%B7%E8%99%9F%E6%9C%80%E4%BD%8E6%E6%8A%98%E5%84%AA%E6%83%A0-031919608.html
+mrt_map_tp.png - https://english.metro.taipei/cp.aspx?n=1BE0AF76C79F9A38&s=7947BFBC4B622A7D
+mrt_map_ks.png - https://nigi33.tw/2020-06-16-1677/
+mrt_map_tc.png - https://cg2010studio.com/2020/11/20/%E5%8F%B0%E4%B8%AD%E6%8D%B7%E9%81%8B%E7%B6%A0%E7%B7%9A%E8%B7%AF%E7%B7%9A%E5%9C%96-tmrt-green-line-route-map/
+
