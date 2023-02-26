@@ -8,19 +8,21 @@ body {
 
 h2 {
     font-family: 'Brygada 1918', serif;
-    font-size: 96px;
+    font-size: 72px;
     color: #000000;
+    font-weight: lighter;
 }
 
 h3 {
     font-family: 'Brygada 1918', serif;
-    font-size: 48px;
+    font-size: 40px;
     color: #000000;
+    font-weight: lighter;
 }
 
 h4 {
     font-family: 'Brygada 1918', serif;
-    font-size: 36px;
+    font-size: 32px;
     color: #000000;
 }
 
@@ -38,11 +40,11 @@ p {
 
 a {
     font-family: 'Brygada 1918', serif;
-    font-size: 36px;
+    font-size: 32px;
     color: #000000;
 }
 
-
+/* Background image of the main page */
 .main-background-img {
     position: absolute;
     width: 100vw;
@@ -50,14 +52,71 @@ a {
     z-index: -1;
 }
 
+/* The cover to cover bottom area of background image with linear gradient color */
 .cover-linear {
     width: 100vw;
     height: 800px;
-    background-image: linear-gradient(to bottom, rgba(36,35,23,0), rgba(36,35,23,1));;
+    background-image: linear-gradient(to bottom, rgba(36,35,23,0),rgba(36,35,23,0),rgba(36,35,23,0),rgba(36,35,23,0.2), rgba(36,35,23,1));
+    z-index: 0;
 }
 
+/* The background of rest of the main page */
 .main-bg {
     width: 100vw;
-    height: 3000px;
     background-color: #242317;
+    display: flex;
+    justify-content: center;
+}
+
+/* Class of the slogan */
+.main-slg {
+    position: absolute;
+}
+
+.main-slg h2, h3 {
+    color: #FFFFFF;
+    position: relative;
+    margin-left: 240px;
+}
+
+.main-slg h2 {
+    margin-top: 440px;
+}
+
+.main-slg h3 {
+    margin-top: -50px;
+}
+/* End */
+
+
+.main-container {
+    width: 65%;
+    margin-top: 320px;
+    margin-bottom: 160px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 320px;
+}
+
+.main-list-card {
+    width: 100%;
+    height: 680px;
+    background-color: aqua;
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.main-list-card img {
+    height: 100%;
+    width: 43%;
+    /* aspect-ratio: 3/4; */
+}
+
+.main-list-text {
+    height: 100%;
+    width: 55%;
+    background-color: darkmagenta;
 }
