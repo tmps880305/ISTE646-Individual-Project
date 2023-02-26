@@ -1,40 +1,45 @@
 .nav_container {
+    width: 100vw;
     margin: 0;
     padding: 0;
+    background-color: #242317;
+    opacity: 50%;
+    position: absolute;
     display: flex;
     justify-content: center;
-    background-color: #6A6A6A;
 }
 
 .navbar {
     width: 83%;
-    height: 8vh;
+    height: 80px;
     margin: 0;
     padding: 0;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
 }
 
+.logo_container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
 
-
-
-.navbar p {
-    margin-top: 2vh;
-    margin-left: 1vw;
+.navbar a {
+    margin-left: 20px;
     color: #FFFFFF;
-    font-family: 'Abhaya Libre', serif;
-    font-size: 28px;
-    float: left;
 }
 
 .navbar img {
     width: 50px;
     height: 50px;
     float: left;
-    margin-top: 1.2vh;
 }
 
 .navbar nav {
+    height: 80px;
     float: right;
+    display: flex;
+    align-items: center;
 }
 
 .navbar ul {
@@ -47,8 +52,8 @@
     display: inline-block;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 3%;
-    padding-bottom: 3.5%;
+    /* padding-top: 3%; */
+    /* padding-bottom: 3.5%; */
     height: 100%;
 
 }
@@ -59,9 +64,6 @@
 
 .navbar a {
     color: #FFFFFF;
-    font-family: 'Abhaya Libre', serif;
-    text-decoration: none;
-    font-size: 28px;
 }
 
 .dropdown {
