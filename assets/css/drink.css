@@ -1,0 +1,25 @@
+.trans-main-img {
+    background-image: url("../img/boba_main2.jpg");
+}
+
+.col2-text-img {
+    margin-top: 60px;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col2-text-img div {
+    width: 45%;
+    height: 400px;
+    /* background-color: blue; */
+}
+
+.col2-text-img p {
+    font-size: 24px;
+}
+
+.col2-text-img img {
+    width: 35%;
+}
