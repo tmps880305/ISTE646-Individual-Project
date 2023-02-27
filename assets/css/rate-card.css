@@ -1,0 +1,79 @@
+
+/* container for the list of items */
+
+.list-wrapper {
+    width: 70%;
+}
+
+.list-ttl {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-item h2 {
+    line-height: 0;
+}
+
+.list-item p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.item-card {
+    width: 100%;
+    height: 240px;
+    margin: 40px 0;
+    background-color: #D6FFBB;
+    opacity: 80%;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+
+.item-img img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.item-content {
+    width: 65%;
+}
+
+.rate-title-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.rate-title {
+    font-family: 'Brygada 1918', serif;
+    font-size: 24px;
+    color: #000000;
+    font-weight: lighter;
+}
+
+.rate-star-container {
+    display: flex;
+    align-items: baseline;
+    column-gap: 72px;
+}
+
+.rate-text p {
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+}

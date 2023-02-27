@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/navbar.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/transport.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/rate-card.css"/>
 
     <script src="assets/js/transport.js"></script>
 
@@ -26,7 +27,7 @@
     <div class="nav_container">
         <div class="navbar">
             <div class="logo_container">
-                <img src="assets/img/logo.png" alt="logo">
+                <a href="./index.html"><img src="assets/img/logo.png" alt="logo"></a>
                 <a href="./index.html">Travel Taiwan</a>
             </div>
             
@@ -52,6 +53,9 @@
                             <li><a class="dropItem" href="./boba-1.html">Chun Shui Tang</a></li>
                             <li><a class="dropItem" href="./boba-2.html">ChunShan Tea Store</a></li>
                         </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./reference.html">Reference</a>
                     </li>
                 </ul>
             </nav>
@@ -89,66 +93,65 @@
     </div>
 
     <div class="trans-list-container">
-
-        <!-- High Speed Rail -->
-        <div class="trans-list-wrapper">
-            <div class="trans-list-ttl">
+        <div class="list-wrapper">
+            <div class="list-ttl">
                 <h3>Between Cities</h3>
             </div>
-            <div class="trans-list-item">
-                <div class="item-rate-card">
-                    <div class="rate-ttl-container">
-                        <div class="rate-ttl rate-ttl-cmt">High Speed Rail</div>
-                        <div class="rate-ttl-rt">
-                            <div class="rate-ttl">Rating</div>
-                            <div>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars rate-stars-empty"></span>
+        
+            <!-- High Speed Rail -->
+            <div class="list-item">
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="assets/img/transport_highspeed.png">
+                    </div>
+                    <div class="item-content">
+                        <div class="rate-title-container">
+                            <div class="rate-title">High Speed Rail</div>
+                            <div class="rate-star-container">
+                                <div class="rate-title">Rating</div>
+                                <div>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars rate-stars-empty"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="rate-content-container">
-                        <div class="content-cmt">
+                        <div class="rate-text">
                             <p>Taiwan High Speed Rail is the fastest land transportation along the west coast of Taiwan. With 350 km/hr average speed, the Taiwan High Speed Rail could move from Taipei to Kaohsiung in around 2 hours, producing great convenience for people in Taiwan to travel between cities without taking airplanes or driving.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-
-        <!-- Taiwan Railway -->
-        <div class="trans-list-wrapper">
-            <div class="trans-list-item">
-                <div class="item-rate-card">
-                    <div class="rate-ttl-container">
-                        <div class="rate-ttl rate-ttl-cmt">Taiwan Railway</div>
-                        <div class="rate-ttl-rt">
-                            <div class="rate-ttl">Rating</div>
-                            <div>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars rate-stars-empty"></span>
-                                <span class="rate-stars rate-stars-empty"></span>
-                                <span class="rate-stars rate-stars-empty"></span>
+            <!-- Railway -->
+            <div class="list-item">
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="assets/img/transport_railway.png">
+                    </div>
+                    <div class="item-content">
+                        <div class="rate-title-container">
+                            <div class="rate-title">Taiwan Railway</div>
+                            <div class="rate-star-container">
+                                <div class="rate-title">Rating</div>
+                                <div>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars rate-stars-empty"></span>
+                                    <span class="rate-stars rate-stars-empty"></span>
+                                    <span class="rate-stars rate-stars-empty"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="rate-content-container">
-                        <div class="content-cmt">
+                        <div class="rate-text">
                             <p>Taiwan Railway is the main railway system that services the railway network throughout the entire Taiwan island. Similar to railways in many other countries, Taiwan Railway offers various types of trains for different speeds and destinations. The range of service is wider than High Speed Rail, and the price is more affordable.</p>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
+
         </div>
 
         <!-- Separator -->
@@ -157,64 +160,65 @@
         </div>
 
         <!-- MRT -->
-        <div class="trans-list-wrapper">
-            <div class="trans-list-ttl">
+        <div class="list-wrapper">
+            <div class="list-ttl">
                 <h3>Within Cities</h3>
             </div>
-            <div class="trans-list-item">
-                <div class="item-rate-card">
-                    <div class="rate-ttl-container">
-                        <div class="rate-ttl rate-ttl-cmt">Mass Rapid Transportation</div>
-                        <div class="rate-ttl-rt">
-                            <div class="rate-ttl">Rating</div>
-                            <div>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars"></span>
+
+            <!-- MRT -->
+            <div class="list-item">
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="assets/img/transport_mrt.png">
+                    </div>
+                    <div class="item-content">
+                        <div class="rate-title-container">
+                            <div class="rate-title">Mass Rapid Transportation</div>
+                            <div class="rate-star-container">
+                                <div class="rate-title">Rating</div>
+                                <div>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="rate-content-container">
-                        <div class="content-cmt">
+                        <div class="rate-text">
                             <p>The Mass Rapid Transportation (MRT) is one of the famous and convenient way of communication in Taiwan, especially in Taipei city. The environment is super clean, comfortable, and safe. Though it might be crowded at the time people move to work, the benefits MRT provides would still make it the best choice.</p>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-        </div>
 
-
-        <!-- Bus -->
-        <div class="trans-list-wrapper">
-            <div class="trans-list-item">
-                <div class="item-rate-card">
-                    <div class="rate-ttl-container">
-                        <div class="rate-ttl rate-ttl-cmt">Bus</div>
-                        <div class="rate-ttl-rt">
-                            <div class="rate-ttl">Rating</div>
-                            <div>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars rate-stars-empty"></span>
-                                <span class="rate-stars rate-stars-empty"></span>
+            <!-- Bus -->
+            <div class="list-item">
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="assets/img/transport_bus.png">
+                    </div>
+                    <div class="item-content">
+                        <div class="rate-title-container">
+                            <div class="rate-title">Bus</div>
+                            <div class="rate-star-container">
+                                <div class="rate-title">Rating</div>
+                                <div>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars rate-stars-empty"></span>
+                                    <span class="rate-stars rate-stars-empty"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="rate-content-container">
-                        <div class="content-cmt">
+                        <div class="rate-text">
                             <p>Buses are one alternative way to commute inside the city. In some places that MRT does not cover, buses become the next best way to travel. It’s also cheap and quick, however, it’s more complex for a visitor to understand the route and the environment is a little bit messier.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div>
 
         <!-- Separator -->
@@ -222,34 +226,35 @@
             <span></span><i></i><span></span>
         </div>
 
-         <!-- Driving -->
-         <div class="trans-list-wrapper">
-            <div class="trans-list-item">
-                <div class="item-rate-card">
-                    <div class="rate-ttl-container">
-                        <div class="rate-ttl rate-ttl-cmt">Driving</div>
-                        <div class="rate-ttl-rt">
-                            <div class="rate-ttl">Rating</div>
-                            <div>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars"></span>
-                                <span class="rate-stars rate-stars-empty"></span>
-                                <span class="rate-stars rate-stars-empty"></span>
+
+        <div class="list-wrapper">
+            <!-- Driving -->
+            <div class="list-item">
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="assets/img/transport_car.png">
+                    </div>
+                    <div class="item-content">
+                        <div class="rate-title-container">
+                            <div class="rate-title">Driving</div>
+                            <div class="rate-star-container">
+                                <div class="rate-title">Rating</div>
+                                <div>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars"></span>
+                                    <span class="rate-stars rate-stars-empty"></span>
+                                    <span class="rate-stars rate-stars-empty"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="rate-content-container">
-                        <div class="content-cmt">
+                        <div class="rate-text">
                             <p>Driving is always a great way to travel in Taiwan. Highways and roads are well-developed across the island. However, due to the high density of population and travel needs during vacations, traffic jam happens frequently on highways or in cities, especially on specific holidays.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
     </div>
     
     <footer class="footer">

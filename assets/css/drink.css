@@ -37,3 +37,17 @@
 .bc-drink {
     width: 25%;
 }
+
+.food-main-img {
+    width: 100vw;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/nightmarket_main.jpeg");
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
