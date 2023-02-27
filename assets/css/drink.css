@@ -23,3 +23,17 @@
 .col2-text-img img {
     width: 35%;
 }
+
+
+.food-instruction p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.bc-food {
+    width: 20%;
+}
+
+.bc-drink {
+    width: 25%;
+}

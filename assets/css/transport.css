@@ -335,3 +335,8 @@
     border-radius: 50%;
     display: inline-block;
 }
+
+
+.bc-long {
+    width: 25%;
+}

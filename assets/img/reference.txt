@@ -19,4 +19,6 @@ chung_main.jpg - http://chunshuitang.com.tw/theoriginalstore.php
 nightmarket_main.jpeg - https://www.yelp.com/biz_photos/%E5%AF%A7%E5%A4%8F%E5%A4%9C%E5%B8%82-%E5%A4%A7%E5%90%8C%E5%8D%80?select=K-o8yoO3joM8Br1pZvQzSA
 boba_main.jpeg - https://365dailydrinks.com/john-tea-company/
 boba_main2.jpg - https://365dailydrinks.com/john-tea-company/
+ding_main.jpeg - https://undiff.net/2909/%E3%80%90%E5%8F%B0%E5%8C%97%E7%BE%8E%E9%A3%9F%E3%80%91%E9%BC%8E%E6%B3%B0%E8%B1%90-%E4%BF%A1%E7%BE%A9%E5%BA%97.html
+ding_xiaolongbao.png - https://undiff.net/2909/%E3%80%90%E5%8F%B0%E5%8C%97%E7%BE%8E%E9%A3%9F%E3%80%91%E9%BC%8E%E6%B3%B0%E8%B1%90-%E4%BF%A1%E7%BE%A9%E5%BA%97.html
 
